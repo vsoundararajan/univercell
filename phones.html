@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>     
+    <!-- link to the jQuery library (see http://jquery.com) -->
+    <script src="js/beaverslider2.0-compressed.js"></script>
+    <!-- link to a framework -->
+    <script src="js/beaverslider2.0-effects-compressed.js"></script>
+    <!-- link to a set of effects -->
+    <script>
+       imgs2 = [
+            "images/samsung/i930/i930_600x600_xlarge_bk.jpg", 
+            "images/samsung/i930/i930_600x600_xlarge_cf.jpg", 
+            "images/samsung/i930/i930_600x600_xlarge_cl.jpg", 
+            "images/samsung/i930/i930_600x600_xlarge_cr.jpg", 
+            "images/samsung/i930/i930_600x600_xlarge_s1.jpg", 
+            "images/samsung/i930/i930_600x600_xlarge_s2.jpg"
+       ];
+    </script>
+    <!-- if you want to make styling link some css files -->
+    <script src="slider.js"></script>
+ </head>
+ <body>
+    <header>
+        <div class="logo">
+            <a href="index.html"  alt="Home"><img src="univercell.png"></a>
+        </div>
+        <ul>
+            <li><a href="#">Contact</a></li> 
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Phones</a></li>
+        </ul>
+    </header>
+    <section>
+       <div class="leftPanel">
+          <div class="phonesList">
+            <ul>
+              <li class="makes">Samsung<li>
+              <li>
+                <ul>
+                    <li class="model">Galaxy S1</li>
+                    <li class="model">Galaxy S2</li>
+                    <li class="model">Galaxy S3</li>
+                    <li class="model">Galaxy S5</li>
+                </ul>
+              </li>
+              <li class="makes">LG<li>
+              <li>
+                <ul>
+                    <li class="model">LG model1</li>
+                    <li class="model">LG model2</li>
+                    <li class="model">LG model3</li>
+                    <li class="model">LG model4</li>
+                </ul>
+              </li>
+              <li class="makes">HTC<li>
+              <li>
+                <ul>
+                    <li class="model"><a href"#">HTC model1</a></li>
+                    <li class="model"><a href"#">HTC model2</a></li>
+                    <li class="model"><a href"#">HTC model3</a></li>
+                    <li class="model"><a href"#">HTC model4</a></li>
+                </ul>
+              </li>
+              <li class="makes">NOKIA<li>
+              <li>
+                <ul>
+                    <li class="model">NOKIA model1</li>
+                    <li class="model">NOKIA model2</li>
+                    <li class="model">NOKIA model3</li>
+                    <li class="model">NOKIA model4</li>
+                </ul>
+              </li>
+              <li class="makes">Apple<li>
+              <li>
+                <ul>
+                    <li class="model">Apple model1</li>
+                    <li class="model">Apple model2</li>
+                    <li class="model">Apple model3</li>
+                    <li class="model">Apple model4</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+       </div>
+       <div class="rightPanel">
+          <div id="my-slider"></div>
+          <div class="details">
+             <div class="phoneMakeSku">
+                <h1>Samsung Galaxy S 5</h1>
+                <small>SKU:610214635853</small>
+             </div>
+             <div class="details_menu">
+                 <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Plans</a></li>
+                 </ul>
+             </div>
+             <div class="phoneDetails">
+                <div class="featuresColumn">
+                    <div class="container">
+                      <div class="row">
+                         <div class="column"><h3>Phone Features<h3></div>
+                         <div class="column"><h3>Dimensions &amp; Specs<h3></div>
+                         <div class="column"><h3>Includes<h3></div>
+                      </div>
+                      <div class="row">
+                         <div class="column">4G Connectivity</div>
+                         <div class="column">Length:5.59 in</div>
+                         <div class="column">Battery</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Wi-Fi</div>
+                         <div class="column">Width:2.85 in</div>
+                         <div class="column">SIM Card</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Wi-Fi Calling</div>
+                         <div class="column">Height:0.32 in</div>
+                         <div class="column">Travel charger with USB data cable</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Email</div>
+                         <div class="column">Weight:5.11 oz</div>
+                         <div class="column">Quick Start Guide</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Visual Voicemail</div>
+                         <div class="column">4GLTE Connectivity</div>
+                         <div class="column">Headphones</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Video Capture</div>
+                         <div class="column">Android 4.4 KitKat</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">MP3 Music Player</div>
+                         <div class="column">2.5 GHz quad-core processor</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Instant Messaging</div>
+                         <div class="column">5.1-inch full HD Super AMOLED display</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Bluetooth Stereo</div>
+                         <div class="column">2 MP front facing camera</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Rhapsody</div>
+                         <div class="column">16 MP camera with Full HD video recording</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">MetroMUSIC</div>
+                         <div class="column">2800 mAh battery capacity</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">Memory Card Slot</div>
+                         <div class="column">Up to 10 GB internal memory</div>
+                      </div>
+                      <div class="row">
+                         <div class="column">WEA Compliant - Yes</div>
+                         <div class="column">Up to 64 GB of external memory</div>
+                      </div>
+                      <div class="row">
+                         <div class="column"></div>
+                         <div class="column">Mobile Hotspot-capable</div>
+                      </div>
+                      <div class="row">
+                        <div class="column"></div>
+                         <div class="column">Stereo Bluetooth</div>
+                      </div>
+                      <div class="row">
+                        <div class="column"></div>
+                         <div class="column">Slate</div>
+                      </div>
+                      <div class="row">
+                        <div class="column"></div>
+                         <div class="column">HTML browser</div>
+                      </div>
+                      <div class="row">
+                        <div class="column"></div>
+                         <div class="column">Gorilla glass</div>
+                      </div>
+                      <div class="row">
+                         <div class="column"></div>
+                         <div class="column">NFC</div>
+                      </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="phonePlans">
+
+             </div>
+          </div>
+       </div>
+    </section>
+    <footer>
+         <ul>
+            <li><a href="#">Phones</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li> 
+        </ul>
+         <ul><li>&copy; Univercell</li></ul>
+    </footer>
+ </body>
+</html>
+
+<!--438 -->
